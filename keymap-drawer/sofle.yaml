@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, '=', CAPS, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, ESCAPE, DEL, N, M, ',', ., /, RIGHT SHIFT, lower, LALT, LEFT CONTROL, LEFT WIN, SPACE, ENTER, BACKSPACE, ESCAPE, CONTEXT MENU, lower]
+    X, C, V, B, ESCAPE, DEL, N, M, ',', ., /, RIGHT SHIFT, lower, LALT, LEFT CONTROL, SPACE, ENTER, BACKSPACE, LWIN, ESCAPE, CONTEXT MENU, lower]
   lower:
   - ESC
   - F1
@@ -16,11 +16,11 @@ layers:
   - F10
   - F11
   - ''
-  - RGB TOG
+  - RGB HUD
   - RGB EFF
-  - RGB HUI
+  - UP ARROW
   - RGB BRI
-  - F6
+  - RGB TOG
   - F7
   - F8
   - F9
@@ -28,10 +28,10 @@ layers:
   - F11
   - F12
   - TAB
-  - LEFT
-  - DOWN
+  - RGB HUI
+  - LEFT ARROW
+  - DOWN ARROW
   - RIGHT
-  - $
   - '%'
   - ^
   - '&'
