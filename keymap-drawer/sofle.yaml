@@ -15,7 +15,7 @@ layers:
   - F9
   - F10
   - F11
-  - ''
+  - CAPS
   - RGB HUD
   - RGB EFF
   - UP ARROW
@@ -25,34 +25,34 @@ layers:
   - F8
   - F9
   - F10
-  - F11
-  - F12
+  - '{'
+  - '}'
   - TAB
   - RGB HUI
   - LEFT ARROW
   - DOWN ARROW
-  - RIGHT
-  - '%'
+  - '|'
+  - \
   - ^
   - '&'
   - KP MULTIPLY
   - (
-  - '|'
+  - UP ARROW
   - \
-  - {t: ▽, type: trans}
+  - Sft+LEFT CONTROL
   - '='
   - '-'
   - KP PLUS
-  - '{'
-  - '}'
+  - (
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
   - '{'
-  - '}'
-  - (
-  - )
+  - LEFT ARROW
+  - DOWN
+  - RIGHT ARROW
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
