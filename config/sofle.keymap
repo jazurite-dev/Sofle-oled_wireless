@@ -33,7 +33,9 @@
                    &mo 1   &kp LALT  &kp LEFT_CONTROL  &kp SPACE  &kp LEFT_WIN    &kp ENTER  &kp SPACE  &kp BACKSPACE  &kp K_CONTEXT_MENU  &mo 1
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp BACKSPACE BACKSPACE>;
         };
 
         window_lower_layer {
@@ -48,11 +50,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESC  &kp F1           &kp F2           &kp F3          &kp F4           &kp F5                             &kp F6     &kp F7    &kp F8           &kp F9           &kp F10               &kp F11
-&none    &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &kp UP_ARROW    &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                    &kp F7     &kp F8    &kp F9           &kp F10          &kp F11               &kp F12
-&kp TAB  &rgb_ug RGB_HUI  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT        &kp PRCNT                          &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR         &kp PIPE              &kp BACKSLASH
-&trans   &kp EQUAL        &kp MINUS        &kp KP_PLUS     &kp LBRC         &kp RBRC         &trans    &trans  &kp LBKT   &kp RBKT  &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-                          &trans           &trans          &trans           &trans           &trans    &trans  &trans     &trans    &trans           &trans
+&kp ESC               &kp F1           &kp F2           &kp F3          &kp F4                &kp F5                                   &kp F6     &kp F7    &kp F8           &kp F9          &kp F10         &kp F11
+&kp CAPS              &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &kp UP_ARROW    &rgb_ug RGB_BRI       &rgb_ug RGB_TOG                          &kp F7     &kp F8    &kp F9           &kp F10         &kp LEFT_BRACE  &kp RIGHT_BRACE
+&kp TAB               &rgb_ug RGB_HUI  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp PIPE              &kp NON_US_BACKSLASH                     &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR        &kp UP_ARROW    &kp BACKSLASH
+&kp LS(LEFT_CONTROL)  &kp EQUAL        &kp MINUS        &kp KP_PLUS     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &trans  &kp LBKT   &kp RBKT  &kp LEFT_BRACE   &kp LEFT_ARROW  &kp DOWN        &kp RIGHT_ARROW
+                                       &trans           &trans          &trans                &trans                 &trans    &trans  &trans     &trans    &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
