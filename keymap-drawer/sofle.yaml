@@ -1,7 +1,8 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, '=', CAPS, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, ESCAPE, DEL, N, M, ',', ., /, RIGHT SHIFT, lower, LALT, LEFT CONTROL, SPACE, LEFT WIN, ENTER, SPACE, BACKSPACE, CONTEXT MENU, lower]
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, '=', LEFT SHIFT, A, S, D, F, G, H, J, K, L, UP ARROW,
+    RIGHT SHIFT, BACKSPACE, Z, X, C, V, B, BT CLR ALL, EP TOG, N, M, '', LEFT ARROW, DOWN ARROW, RIGHT ARROW, lower, LALT, LEFT CONTROL, SPACE, LEFT WIN, ENTER, SPACE,
+    Sft+LEFT CONTROL, CONTEXT MENU, lower]
   lower:
   - ESC
   - F1
@@ -21,38 +22,38 @@ layers:
   - UP ARROW
   - RGB BRI
   - RGB TOG
-  - F7
-  - F8
-  - F9
-  - F10
-  - '{'
-  - '}'
+  - ''''
+  - '"'
+  - '|'
+  - \
+  - '"'
+  - F12
   - TAB
   - RGB HUI
   - LEFT ARROW
   - DOWN ARROW
-  - '|'
-  - \
+  - '`'
+  - '~'
   - ^
   - '&'
-  - KP MULTIPLY
-  - (
-  - UP ARROW
-  - \
+  - <
+  - '>'
+  - ;
+  - ':'
   - Sft+LEFT CONTROL
   - '='
-  - '-'
-  - KP PLUS
+  - '{'
+  - '}'
   - (
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - '{'
-  - LEFT ARROW
-  - DOWN
-  - RIGHT ARROW
+  - ','
+  - .
+  - /
+  - '?'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
