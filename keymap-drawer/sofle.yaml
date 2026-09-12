@@ -4,7 +4,6 @@ layers:
       CONTROL, lower, LEFT SHIFT, Z, X, C, V, B, BT CLR ALL, EP TOG, N, M, UP ARROW, AltGr+RIGHT CONTROL, CONTEXT MENU, RIGHT SHIFT, LEFT WIN, LALT, LEFT CONTROL,
     SPACE, DELETE, ENTER, SPACE, LEFT ARROW, DOWN ARROW, RIGHT ARROW]
   lower:
-  - ESC
   - F1
   - F2
   - F3
@@ -16,6 +15,7 @@ layers:
   - F9
   - F10
   - F11
+  - F12
   - CAPS
   - RGB HUD
   - RGB EFF
@@ -26,12 +26,12 @@ layers:
   - '"'
   - '|'
   - \
-  - '"'
-  - F12
+  - '-'
+  - +
   - {t: TAB, type: held}
   - RGB HUI
-  - LEFT ARROW
-  - DOWN ARROW
+  - _
+  - '='
   - '`'
   - '~'
   - ^
