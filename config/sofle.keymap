@@ -52,10 +52,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESC               &kp F1           &kp F2           &kp F3           &kp F4                &kp F5                                   &kp F6            &kp F7             &kp F8         &kp F9                &kp F10            &kp F11
-&kp CAPS              &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &kp UP_ARROW     &rgb_ug RGB_BRI       &rgb_ug RGB_TOG                          &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PIPE       &kp NON_US_BACKSLASH  &kp DOUBLE_QUOTES  &kp F12
-&kp TAB               &rgb_ug RGB_HUI  &kp LEFT_ARROW   &kp DOWN_ARROW   &kp GRAVE             &kp TILDE                                &kp CARET         &kp AMPS           &kp LESS_THAN  &kp GREATER_THAN      &kp SEMICOLON      &kp COLON
-&kp LS(LEFT_CONTROL)  &kp EQUAL        &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &trans  &kp LBKT          &kp RBKT           &kp COMMA      &kp PERIOD            &kp SLASH          &kp QUESTION
+&kp F1                &kp F2           &kp F3           &kp F4           &kp F5                &kp F6                                   &kp F7            &kp F8             &kp F9         &kp F10               &kp F11        &kp F12
+&kp CAPS              &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &kp UP_ARROW     &rgb_ug RGB_BRI       &rgb_ug RGB_TOG                          &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PIPE       &kp NON_US_BACKSLASH  &kp MINUS      &kp PLUS
+&kp TAB               &rgb_ug RGB_HUI  &kp UNDERSCORE   &kp EQUAL        &kp GRAVE             &kp TILDE                                &kp CARET         &kp AMPS           &kp LESS_THAN  &kp GREATER_THAN      &kp SEMICOLON  &kp COLON
+&kp LS(LEFT_CONTROL)  &kp EQUAL        &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &trans  &kp LBKT          &kp RBKT           &kp COMMA      &kp PERIOD            &kp SLASH      &kp QUESTION
                                        &trans           &trans           &trans                &trans                 &trans    &trans  &trans            &trans             &trans         &trans
             >;
 
