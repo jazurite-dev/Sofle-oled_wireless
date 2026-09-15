@@ -4,6 +4,7 @@ layers:
       MENU, lower, LEFT SHIFT, Z, X, C, V, B, BT CLR ALL, EP TOG, N, M, UP ARROW, AltGr+RIGHT CONTROL, Sft+RIGHT CONTROL, RIGHT SHIFT, LEFT WIN, LALT, LEFT CONTROL,
     SPACE, DELETE, ENTER, SPACE, LEFT ARROW, DOWN ARROW, RIGHT ARROW]
   lower:
+  - ESC
   - F1
   - F2
   - F3
@@ -13,15 +14,14 @@ layers:
   - F7
   - F8
   - F9
-  - F10
-  - F11
   - F12
+  - BACKSPACE
   - CAPS
-  - RGB HUD
-  - RGB EFF
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - UP ARROW
-  - RGB BRI
-  - RGB TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''''
   - '"'
   - '|'
@@ -29,7 +29,7 @@ layers:
   - '-'
   - +
   - {t: TAB, type: held}
-  - RGB HUI
+  - {t: ▽, type: trans}
   - _
   - '='
   - '`'
@@ -54,13 +54,13 @@ layers:
   - .
   - /
   - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB TOG
+  - RGB EFF
+  - RGB HUI
+  - RGB HUD
+  - RGB BRI
+  - ENTER
+  - SPACE
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
