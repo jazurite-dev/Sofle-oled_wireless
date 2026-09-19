@@ -53,7 +53,7 @@
 
             bindings = <
 &kp ESC               &kp F1     &kp F2           &kp F3           &kp F4                &kp F5                                               &kp F6            &kp F7             &kp F8          &kp F9                &kp F12        &kp BACKSPACE
-&kp CAPS              &trans     &trans           &kp UP_ARROW     &trans                &trans                                               &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PIPE        &kp NON_US_BACKSLASH  &kp MINUS      &kp PLUS
+&kp CAPS              &trans     &trans           &kp UP_ARROW     &trans                &trans                                               &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PIPE        &kp NON_US_BACKSLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE
 &kp TAB               &trans     &kp UNDERSCORE   &kp EQUAL        &kp GRAVE             &kp TILDE                                            &kp CARET         &kp AMPS           &kp LESS_THAN   &kp GREATER_THAN      &kp SEMICOLON  &kp COLON
 &kp LS(LEFT_CONTROL)  &kp EQUAL  &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans             &trans     &kp LBKT          &kp RBKT           &kp COMMA       &kp PERIOD            &kp SLASH      &kp QUESTION
                                  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI       &rgb_ug RGB_HUD        &rgb_ug RGB_BRI    &kp ENTER  &kp SPACE         &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW
