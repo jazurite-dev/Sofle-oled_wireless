@@ -87,9 +87,9 @@ layers:
   - '{'
   - '}'
   - {type: held}
+  - {t: ▽, type: trans}
   - Alt+.
   - Alt+-
-  - {t: ▽, type: trans}
   - Alt+|
   - 'Alt+:'
   - '|'
@@ -209,9 +209,9 @@ layers:
   - '{'
   - '}'
   - {type: held}
+  - {t: ▽, type: trans}
   - '&mac_uc_succ'
   - '&mac_uc_emdash'
-  - {t: ▽, type: trans}
   - Alt+|
   - 'Alt+:'
   - '|'
