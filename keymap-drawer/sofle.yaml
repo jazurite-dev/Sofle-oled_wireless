@@ -90,8 +90,8 @@ layers:
   - Alt+.
   - Alt+-
   - UP ARROW
-  - '|'
-  - ':'
+  - Alt+|
+  - 'Alt+:'
   - '|'
   - \
   - ''''
@@ -209,11 +209,11 @@ layers:
   - '{'
   - '}'
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mac_uc_succ'
+  - '&mac_uc_emdash'
   - UP ARROW
-  - '|'
-  - ':'
+  - Alt+|
+  - 'Alt+:'
   - '|'
   - \
   - ''''
