@@ -75,11 +75,11 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - '~'
+  - '*'
+  - _
+  - '='
   - '-'
   - +
   - '['
@@ -87,11 +87,11 @@ layers:
   - '{'
   - '}'
   - {type: held}
-  - '`'
-  - '~'
-  - '*'
-  - _
-  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '|'
   - \
   - ''''
@@ -197,11 +197,11 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - '~'
+  - '*'
+  - _
+  - '='
   - '-'
   - +
   - '['
@@ -209,11 +209,11 @@ layers:
   - '{'
   - '}'
   - {type: held}
-  - '`'
-  - '~'
-  - '*'
-  - _
-  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '|'
   - \
   - ''''
