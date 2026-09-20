@@ -16,6 +16,33 @@
 #define MAC_LOWER 3
 
 / {
+    macros {
+        // macOS Unicode Hex Input: hold Option (LALT) and type the 4-digit hex code.
+        mac_uc_succ: mac_uc_succ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp N2 &kp N2 &kp D &kp F>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        mac_uc_emdash: mac_uc_emdash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp N2 &kp N0 &kp N1 &kp N4>
+                , <&macro_release &kp LALT>
+                ;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -56,7 +83,7 @@
             bindings = <
 &trans                &kp F1     &kp F2           &kp F3           &kp F4                &kp F5                                               &kp F6            &kp F7             &kp F8          &kp F9                &kp F12        &trans
 &trans                &kp GRAVE  &kp TILDE        &kp ASTERISK     &kp UNDERSCORE        &kp EQUAL                                            &kp MINUS         &kp PLUS           &kp LBKT        &kp RBKT              &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans                &kp LA(DOT)  &kp LA(MINUS)  &kp UP_ARROW     &kp PIPE              &kp COLON                                            &kp PIPE          &kp NON_US_BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES   &kp SEMICOLON  &kp COLON
+&trans                &kp LA(DOT)  &kp LA(MINUS)  &kp UP_ARROW     &kp LA(PIPE)          &kp LA(COLON)                                        &kp PIPE          &kp NON_US_BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES   &kp SEMICOLON  &kp COLON
 &kp LS(LEFT_CONTROL)  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD       &rgb_ug RGB_BRI        &trans             &trans     &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD            &kp SLASH      &kp QUESTION
                                  &kp HOME         &kp END          &kp PRINTSCREEN       &kp PAUSE_BREAK        &kp INSERT         &kp ENTER  &kp SPACE         &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
@@ -89,7 +116,7 @@
             bindings = <
 &trans                &kp F1     &kp F2           &kp F3           &kp F4                &kp F5                                               &kp F6            &kp F7             &kp F8          &kp F9                &kp F12        &trans
 &trans                &kp GRAVE  &kp TILDE        &kp ASTERISK     &kp UNDERSCORE        &kp EQUAL                                            &kp MINUS         &kp PLUS           &kp LBKT        &kp RBKT              &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans                &trans     &trans           &kp UP_ARROW     &kp PIPE              &kp COLON                                            &kp PIPE          &kp NON_US_BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES   &kp SEMICOLON  &kp COLON
+&trans                &mac_uc_succ  &mac_uc_emdash  &kp UP_ARROW     &kp LA(PIPE)          &kp LA(COLON)                                    &kp PIPE          &kp NON_US_BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES   &kp SEMICOLON  &kp COLON
 &kp LS(LEFT_CONTROL)  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD       &rgb_ug RGB_BRI        &trans             &trans     &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD            &kp SLASH      &kp QUESTION
                                  &kp HOME         &kp END          &kp PRINTSCREEN       &kp PAUSE_BREAK        &kp INSERT         &kp ENTER  &kp SPACE         &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
