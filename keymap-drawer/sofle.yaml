@@ -64,3 +64,67 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
+  mac: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DEL, mac lower, A, S, D, F, G, H, J, K, L, CAPSLOCK,
+    mac lower, LEFT SHIFT, Z, X, C, V, B, BT CLR ALL, EP TOG, N, M, UP ARROW, AltGr+RIGHT CONTROL, Sft+RIGHT CONTROL, RIGHT SHIFT, LEFT CONTROL, LALT, LEFT WIN, SPACE,
+    CONTEXT MENU, ENTER, SPACE, LEFT ARROW, DOWN ARROW, RIGHT ARROW]
+  mac lower:
+  - ESC
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F12
+  - BACKSPACE
+  - CAPS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - +
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - {t: TAB, type: held}
+  - {t: ▽, type: trans}
+  - _
+  - '*'
+  - '`'
+  - '~'
+  - '|'
+  - \
+  - ''''
+  - '"'
+  - ;
+  - ':'
+  - Sft+LEFT CONTROL
+  - '='
+  - HOME
+  - END
+  - ^
+  - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - ','
+  - .
+  - /
+  - '?'
+  - RGB TOG
+  - RGB EFF
+  - RGB HUI
+  - RGB HUD
+  - RGB BRI
+  - ENTER
+  - SPACE
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
