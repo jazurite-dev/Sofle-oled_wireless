@@ -31,7 +31,7 @@ layers:
   - {t: TAB, type: held}
   - {t: ▽, type: trans}
   - _
-  - '='
+  - '*'
   - '`'
   - '~'
   - '|'
@@ -42,8 +42,8 @@ layers:
   - ':'
   - Sft+LEFT CONTROL
   - '='
-  - '{'
-  - '}'
+  - HOME
+  - END
   - ^
   - '&'
   - {t: ▽, type: trans}
