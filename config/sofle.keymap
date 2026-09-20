@@ -33,13 +33,13 @@
 &kp ESCAPE      &kp N1  &kp N2        &kp N3    &kp N4            &kp N5                                              &kp N6     &kp N7          &kp N8          &kp N9                 &kp N0                 &kp BACKSPACE
 &kp TAB         &kp Q   &kp W         &kp E     &kp R             &kp T                                               &kp Y      &kp U           &kp I           &kp O                  &kp P                  &kp DEL
 &mo 1           &kp A   &kp S         &kp D     &kp F             &kp G                                               &kp H      &kp J           &kp K           &kp L                  &kp CAPSLOCK           &mo 1
-&kp LEFT_SHIFT  &kp Z   &kp X         &kp C     &kp V             &kp B      &bt BT_CLR_ALL        &ext_power EP_TOG  &kp N      &kp M           &kp UP_ARROW    &kp RA(RIGHT_CONTROL)  &kp RS(RIGHT_CONTROL)  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp Z   &kp X         &kp C     &kp V             &kp B      &bt BT_CLR_ALL        &to MAC_BASE       &kp N      &kp M           &kp UP_ARROW    &kp RA(RIGHT_CONTROL)  &kp RS(RIGHT_CONTROL)  &kp RIGHT_SHIFT
                         &kp LEFT_WIN  &kp LALT  &kp LEFT_CONTROL  &kp SPACE  &kp K_CONTEXT_MENU    &kp ENTER          &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&to BASE &to MAC_BASE>;
+                <&inc_dec_kp BACKSPACE BACKSPACE>;
         };
 
         window_lower_layer {
@@ -73,13 +73,13 @@
 &kp ESCAPE      &kp N1  &kp N2        &kp N3    &kp N4            &kp N5                                              &kp N6     &kp N7          &kp N8          &kp N9                 &kp N0                 &kp BACKSPACE
 &kp TAB         &kp Q   &kp W         &kp E     &kp R             &kp T                                               &kp Y      &kp U           &kp I           &kp O                  &kp P                  &kp DEL
 &mo MAC_LOWER   &kp A   &kp S         &kp D     &kp F             &kp G                                               &kp H      &kp J           &kp K           &kp L                  &kp CAPSLOCK           &mo MAC_LOWER
-&kp LEFT_SHIFT  &kp Z   &kp X         &kp C     &kp V             &kp B      &bt BT_CLR_ALL        &ext_power EP_TOG  &kp N      &kp M           &kp UP_ARROW    &kp RA(RIGHT_CONTROL)  &kp RS(RIGHT_CONTROL)  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp Z   &kp X         &kp C     &kp V             &kp B      &bt BT_CLR_ALL        &to BASE           &kp N      &kp M           &kp UP_ARROW    &kp RA(RIGHT_CONTROL)  &kp RS(RIGHT_CONTROL)  &kp RIGHT_SHIFT
                         &kp LEFT_CONTROL  &kp LALT  &kp LEFT_WIN  &kp SPACE  &kp K_CONTEXT_MENU    &kp ENTER          &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&to BASE &to MAC_BASE>;
+                <&inc_dec_kp BACKSPACE BACKSPACE>;
         };
 
         mac_lower_layer {
