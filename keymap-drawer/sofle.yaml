@@ -1,8 +1,66 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DEL, lower, A, S, D, F, G, H, J, K, L, CAPSLOCK,
-    lower, LEFT SHIFT, Z, X, C, V, B, BT CLR ALL, EP TOG, N, M, UP ARROW, AltGr+RIGHT CONTROL, Sft+RIGHT CONTROL, RIGHT SHIFT, LEFT WIN, LALT, LEFT CONTROL, SPACE,
-    CONTEXT MENU, ENTER, SPACE, LEFT ARROW, DOWN ARROW, RIGHT ARROW]
+  default:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACKSPACE
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - DEL
+  - lower
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - CAPSLOCK
+  - lower
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - BT CLR ALL
+  - {t: mac, h: toggle}
+  - N
+  - M
+  - UP ARROW
+  - AltGr+RIGHT CONTROL
+  - Sft+RIGHT CONTROL
+  - RIGHT SHIFT
+  - LEFT WIN
+  - LALT
+  - LEFT CONTROL
+  - SPACE
+  - CONTEXT MENU
+  - ENTER
+  - SPACE
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   lower:
   - ESC
   - F1
@@ -64,9 +122,67 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  mac: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DEL, mac lower, A, S, D, F, G, H, J, K, L, CAPSLOCK,
-    mac lower, LEFT SHIFT, Z, X, C, V, B, BT CLR ALL, EP TOG, N, M, UP ARROW, AltGr+RIGHT CONTROL, Sft+RIGHT CONTROL, RIGHT SHIFT, LEFT CONTROL, LALT, LEFT WIN, SPACE,
-    CONTEXT MENU, ENTER, SPACE, LEFT ARROW, DOWN ARROW, RIGHT ARROW]
+  mac:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACKSPACE
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - DEL
+  - mac lower
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - CAPSLOCK
+  - mac lower
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - BT CLR ALL
+  - {t: default, h: toggle}
+  - N
+  - M
+  - UP ARROW
+  - AltGr+RIGHT CONTROL
+  - Sft+RIGHT CONTROL
+  - RIGHT SHIFT
+  - LEFT CONTROL
+  - LALT
+  - LEFT WIN
+  - SPACE
+  - CONTEXT MENU
+  - ENTER
+  - SPACE
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   mac lower:
   - ESC
   - F1
