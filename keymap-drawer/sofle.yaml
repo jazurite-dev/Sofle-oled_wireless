@@ -74,7 +74,7 @@ layers:
   - F9
   - F12
   - BACKSPACE
-  - CAPS
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
@@ -86,12 +86,12 @@ layers:
   - ']'
   - '{'
   - '}'
-  - {t: TAB, type: held}
-  - {t: ▽, type: trans}
-  - _
-  - '*'
+  - {type: held}
   - '`'
   - '~'
+  - '*'
+  - _
+  - '='
   - '|'
   - \
   - ''''
@@ -196,7 +196,7 @@ layers:
   - F9
   - F12
   - BACKSPACE
-  - CAPS
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
@@ -208,12 +208,12 @@ layers:
   - ']'
   - '{'
   - '}'
-  - {t: TAB, type: held}
-  - {t: ▽, type: trans}
-  - _
-  - '*'
+  - {type: held}
   - '`'
   - '~'
+  - '*'
+  - _
+  - '='
   - '|'
   - \
   - ''''
