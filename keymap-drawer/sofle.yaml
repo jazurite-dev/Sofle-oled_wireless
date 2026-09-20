@@ -99,11 +99,11 @@ layers:
   - ;
   - ':'
   - Sft+LEFT CONTROL
-  - '='
-  - HOME
-  - END
-  - ^
-  - '&'
+  - RGB TOG
+  - RGB EFF
+  - RGB HUI
+  - RGB HUD
+  - RGB BRI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - <
@@ -112,11 +112,11 @@ layers:
   - .
   - /
   - '?'
-  - RGB TOG
-  - RGB EFF
-  - RGB HUI
-  - RGB HUD
-  - RGB BRI
+  - HOME
+  - END
+  - PRINTSCREEN
+  - PAUSE BREAK
+  - INSERT
   - ENTER
   - SPACE
   - LEFT ARROW
@@ -221,11 +221,11 @@ layers:
   - ;
   - ':'
   - Sft+LEFT CONTROL
-  - '='
-  - HOME
-  - END
-  - ^
-  - '&'
+  - RGB TOG
+  - RGB EFF
+  - RGB HUI
+  - RGB HUD
+  - RGB BRI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - <
@@ -234,11 +234,11 @@ layers:
   - .
   - /
   - '?'
-  - RGB TOG
-  - RGB EFF
-  - RGB HUI
-  - RGB HUD
-  - RGB BRI
+  - HOME
+  - END
+  - PRINTSCREEN
+  - PAUSE BREAK
+  - INSERT
   - ENTER
   - SPACE
   - LEFT ARROW
