@@ -54,7 +54,7 @@
             //               |RGBTOG|RGBEFF|RGBHUI|RGBHUD|RGBBRI  |ENTER   |  | SPACE | LEFT  | DOWN  |RIGHT |
 
             bindings = <
-&kp ESC               &kp F1     &kp F2           &kp F3           &kp F4                &kp F5                                               &kp F6            &kp F7             &kp F8          &kp F9                &kp F12        &kp BACKSPACE
+&trans                &kp F1     &kp F2           &kp F3           &kp F4                &kp F5                                               &kp F6            &kp F7             &kp F8          &kp F9                &kp F12        &trans
 &trans                &trans     &trans           &kp UP_ARROW     &trans                &trans                                               &kp MINUS         &kp PLUS           &kp LBKT        &kp RBKT              &kp LEFT_BRACE  &kp RIGHT_BRACE
 &trans                &kp GRAVE  &kp TILDE        &kp ASTERISK     &kp UNDERSCORE        &kp EQUAL                                            &kp PIPE          &kp NON_US_BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES   &kp SEMICOLON  &kp COLON
 &kp LS(LEFT_CONTROL)  &kp EQUAL  &kp HOME         &kp END          &kp CARET             &kp AMPS               &trans             &trans     &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD            &kp SLASH      &kp QUESTION
@@ -87,7 +87,7 @@
 
             // Same as window_lower_layer.
             bindings = <
-&kp ESC               &kp F1     &kp F2           &kp F3           &kp F4                &kp F5                                               &kp F6            &kp F7             &kp F8          &kp F9                &kp F12        &kp BACKSPACE
+&trans                &kp F1     &kp F2           &kp F3           &kp F4                &kp F5                                               &kp F6            &kp F7             &kp F8          &kp F9                &kp F12        &trans
 &trans                &trans     &trans           &kp UP_ARROW     &trans                &trans                                               &kp MINUS         &kp PLUS           &kp LBKT        &kp RBKT              &kp LEFT_BRACE  &kp RIGHT_BRACE
 &trans                &kp GRAVE  &kp TILDE        &kp ASTERISK     &kp UNDERSCORE        &kp EQUAL                                            &kp PIPE          &kp NON_US_BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES   &kp SEMICOLON  &kp COLON
 &kp LS(LEFT_CONTROL)  &kp EQUAL  &kp HOME         &kp END          &kp CARET             &kp AMPS               &trans             &trans     &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD            &kp SLASH      &kp QUESTION
