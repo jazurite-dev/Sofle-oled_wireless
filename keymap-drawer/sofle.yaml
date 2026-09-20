@@ -89,7 +89,7 @@ layers:
   - {type: held}
   - Alt+.
   - Alt+-
-  - UP ARROW
+  - {t: ▽, type: trans}
   - Alt+|
   - 'Alt+:'
   - '|'
@@ -211,7 +211,7 @@ layers:
   - {type: held}
   - '&mac_uc_succ'
   - '&mac_uc_emdash'
-  - UP ARROW
+  - {t: ▽, type: trans}
   - Alt+|
   - 'Alt+:'
   - '|'
