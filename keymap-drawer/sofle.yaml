@@ -62,7 +62,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   lower:
-  - ESC
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -73,7 +73,7 @@ layers:
   - F8
   - F9
   - F12
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,7 +184,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   mac lower:
-  - ESC
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -195,7 +195,7 @@ layers:
   - F8
   - F9
   - F12
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
