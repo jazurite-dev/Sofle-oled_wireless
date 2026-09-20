@@ -87,11 +87,11 @@ layers:
   - '{'
   - '}'
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+.
+  - Alt+-
   - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '|'
+  - ':'
   - '|'
   - \
   - ''''
@@ -212,8 +212,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '|'
+  - ':'
   - '|'
   - \
   - ''''
