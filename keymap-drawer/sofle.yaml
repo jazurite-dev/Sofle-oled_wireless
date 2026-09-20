@@ -26,8 +26,8 @@ layers:
   - '"'
   - '['
   - ']'
-  - '-'
-  - +
+  - '{'
+  - '}'
   - {t: TAB, type: held}
   - {t: ▽, type: trans}
   - _
