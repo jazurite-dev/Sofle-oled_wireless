@@ -1,0 +1,4 @@
+name: sofle-oled-wireless
+build:
+  cmake: .
+  kconfig: Kconfig

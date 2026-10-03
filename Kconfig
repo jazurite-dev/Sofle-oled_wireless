@@ -1,0 +1,3 @@
+config RGB_USB_ONLY
+    bool "Light RGB underglow only while this half has USB power"
+    depends on ZMK_RGB_UNDERGLOW && USB_DEVICE_STACK
