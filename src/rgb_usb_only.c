@@ -7,20 +7,16 @@
 #include <zmk/usb.h>
 
 static void rgb_usb_only_apply(struct k_work *work) {
-    bool on;
-    if (zmk_rgb_underglow_get_state(&on) != 0) {
-        return;
-    }
-
-    bool powered = zmk_usb_is_powered();
-    if (on == powered) {
-        return;
-    }
-
-    if (powered) {
-        zmk_rgb_underglow_on();
-    } else {
+    if (!zmk_usb_is_powered()) {
+        // The LEDs hold whatever they latched at power-up, and nothing blanks them while
+        // RGB is already marked off, so always write the off frame.
         zmk_rgb_underglow_off();
+        return;
+    }
+
+    bool on;
+    if (zmk_rgb_underglow_get_state(&on) == 0 && !on) {
+        zmk_rgb_underglow_on();
     }
 }
 
