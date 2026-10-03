@@ -100,10 +100,10 @@ layers:
   - ':'
   - Sft+LEFT CONTROL
   - EP ON
-  - ''
-  - ''
-  - ''
-  - ''
+  - RGB EFF
+  - RGB HUI
+  - RGB HUD
+  - RGB BRI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - <
@@ -222,10 +222,10 @@ layers:
   - ':'
   - Sft+LEFT CONTROL
   - EP ON
-  - ''
-  - ''
-  - ''
-  - ''
+  - RGB EFF
+  - RGB HUI
+  - RGB HUD
+  - RGB BRI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - <
